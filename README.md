@@ -6,10 +6,10 @@ Webpack, Babel, SCSS, Flickr API, ES6
 ## Project audience: 
 The importance of Flickr photo Gallery is for flower lovers because here the user can see many different kinds of photos of flowers, this project Flickr Photo Gallery fulfils all the requirements of user and it provides an easy interface to navigate.
 
-##Features of Flickr Photo Gallery:
+## Features of Flickr Photo Gallery:
 Users can see different kind of photos of flowers.
 
-##Technology used in the online Flickr photo gallery:
+## Technology used in the online Flickr photo gallery:
 •	HTML: Page layout has been designed in HTML
 
 •	ES6 (JavaScript): All the codes have been developed by ES6
