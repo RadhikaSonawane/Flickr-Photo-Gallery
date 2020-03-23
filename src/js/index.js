@@ -1,12 +1,12 @@
 //import Sass file
 import '../sass/styles.scss';
 
-let loadImg = 'Flicker image loading...';
-//get element by ID 
+let loadImg = 'Flicker image loading...'; 
+//// Get the results 
 document.getElementById('images').innerHTML = loadImg;
+const url = 'https://api.flickr.com/services/rest/?method=flickr.photos.search&tags=flowers&api_key=aaf115cd704df850386394ef4f0dffde&format=json'
 //Fetch flickr API by choosing flower category.
-fetch('https://api.flickr.com/services/rest/?method=flickr.photos.search&tags=flowers&api_key=aaf115cd704df850386394ef4f0dffde&format=json', {
-
+fetch(url, {
 })
     .then(response => {
         return (response.text());
@@ -19,7 +19,7 @@ fetch('https://api.flickr.com/services/rest/?method=flickr.photos.search&tags=fl
         Object.keys(listOfTheitem).forEach(photo => {
             images += `<img src="https://farm${listOfTheitem[photo].farm}.staticflickr.com/${listOfTheitem[photo].server}/${listOfTheitem[photo].id}_${listOfTheitem[photo].secret}.jpg">`;
         });
-        document.getElementById('images').innerHTML = images;
+        document.getElementById('images').innerHTML = images; // Make the HTML 
     })
     .catch(err => {
         // Err Message
