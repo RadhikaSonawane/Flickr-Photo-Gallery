@@ -26,8 +26,13 @@ Followed documentation to install SCSS:  https://github.com/webpack-contrib/sass
 •	Flickr API: I have used Flickr API in this project. 
 
 ## Usage
-* `npm run dev` running dev script.
-* `npm run build` to generate a minified, production-ready build.
-* `npm run start` to run eslint on watch mode and dev-server at localhost:8080.
 
+### npm run dev       
+Running dev script
+
+### npm run build    
+Running build script
+
+### npm run start     
+Running Start script
 
