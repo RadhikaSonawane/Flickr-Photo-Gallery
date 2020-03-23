@@ -3,7 +3,7 @@ Webpack, Babel, SCSS, Flickr API, ES6
 
 ## ScreenShots 
 ### Home Page
-![Image description]()
+![Image description](https://github.com/RadhikaSonawane/Flickr-photo-gallery/blob/master/img/browser-img.PNG)
 
 ## Project Name:  Flickr Photo Gallery.
 
