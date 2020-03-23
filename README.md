@@ -1,6 +1,10 @@
 # Flickr-photo-gallery
 Webpack, Babel, SCSS, Flickr API, ES6
 
+## ScreenShots 
+### Home Page
+![Image description]()
+
 ## Project Name:  Flickr Photo Gallery.
 
 ## Project audience: 
